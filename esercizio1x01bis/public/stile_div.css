@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	background-color: #bdbdbd; 
+	font-family: Helvetica, Verdana; 
+}
+
+#contenitore {
+	background-color: #bdbdbd;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+#testa {
+	color: #000000; 
+	text-align: center; 
+	font-size: 28px; 
+	font-weight: bold;
+	padding-bottom: 12px;	
+}
+
+#contenuto {
+	width: 100%;
+}
+
+.tabella-libri {
+	width: 100%;
+	border-collapse: collapse; 
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+
+.tabella-libri td {
+	width: 33.33%;
+	border: 1px solid #000000;
+	padding: 10px;
+	vertical-align: top;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.box-immagine {
+	width: 100%;
+	height: 250px;
+	border: 1px solid #000000; 
+	margin-bottom: 8px;
+	background-color: #cccccc; 
+	box-sizing: border-box;
+}
+
+.box-immagine img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.tabella-libri p {
+	margin: 4px 0;
+	line-height: 1.3;
+	color: #111111;
+}
+
+.testo-libro {
+	height: 34px; 
+	overflow: hidden;
+}
+
+.editore {
+	font-style: italic; 
+	color: #555555;
+}
+
+.prezzo-acquisto {
+	margin-top: 8px;
+	padding: 0 2px;
+	overflow: hidden;
+}
+
+.prezzo {
+	font-weight: bold;
+	float: left;
+	color: #000000;
+}
+
+.tabella-libri td a {
+	color: #0000ee;
+	text-decoration: underline;
+	float: right;
+}
+
+.tabella-libri td a:hover {
+	color: #551a8b;
+}
